@@ -6,12 +6,13 @@ import 'react-toastify/dist/ReactToastify.css';
 function App() {
   return(
   <>
+    <ToastContainer />
     <Header />
     <main>
       <section id="sales">
         <div className="dsmeta-container">
           <SalesCard/>
-        </div>
+        </div> 
       </section>
     </main>
   </>
